@@ -67,11 +67,7 @@ export default function Header({ className }) {
         </div>
       </div>
 
-      <div>
-        <Link href="/">
-          <a>Go Home</a>
-        </Link>
-      </div>
+      <HeaderBanner/>
     </header>
   );
 }

@@ -6,6 +6,7 @@ import FeaturedImage from './FeaturedImage';
 import Footer from './Footer';
 import FormatDate from './FormatDate';
 import Header from './Header';
+import HeaderBanner from './HeaderBanner'
 import Heading from './Heading';
 import LoadingSearchResult from './LoadingSearchResult';
 import LoadMore from './LoadMore';
