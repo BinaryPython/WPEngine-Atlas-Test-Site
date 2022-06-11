@@ -1,17 +1,12 @@
-import * as MENUS from "constants/menus";
-
-import { classNames as cn } from 'utils';
-import { useState } from 'react';
 import Link from 'next/link';
 
 import styles from "./HeaderBanner.module.scss";
 
 
-export default function HeaderBanner({ className }) {
-	const bannerClass = "header-banner";
+export default function HeaderBanner() {
 
 	return (
-		<div className="{bannerClass}">
+		<div className={styles['header-banner']}>
 			<Link href="/">
 				<a>Go Home</a>
 			</Link>
