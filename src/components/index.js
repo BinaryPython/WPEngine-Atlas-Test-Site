@@ -30,6 +30,7 @@ export {
   Footer,
   FormatDate,
   Header,
+  HeaderBanner,
   Heading,
   LoadingSearchResult,
   LoadMore,
