@@ -66,6 +66,12 @@ export default function Header({ className }) {
           </NavigationMenu>
         </div>
       </div>
+
+      <div>
+        <Link href="/">
+          Go Home
+        </Link>
+      </div>
     </header>
   );
 }
