@@ -31,13 +31,13 @@ export default function Header({ className }) {
           <div className={styles['logo']}>
             <Link href="/">
               <a title="Home">
-                <Image
+{/*                <Image
                   src="/logo.png"
                   width={400}
                   height={80}
                   alt="Blueprint media logo"
                   layout="responsive"
-                />
+                />*/}
               </a>
             </Link>
           </div>
