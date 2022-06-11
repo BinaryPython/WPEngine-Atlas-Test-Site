@@ -8,10 +8,10 @@ import styles from "./HeaderBanner.module.scss";
 
 
 export default function HeaderBanner({ className }) {
-	const class = "header-banner";
+	const bannerClass = "header-banner";
 
 	return (
-		<div class="header-banner">
+		<div className="{bannerClass}">
 			<Link href="/">
 				<a>Go Home</a>
 			</Link>
