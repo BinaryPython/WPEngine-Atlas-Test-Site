@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
-import { NavigationMenu, SkipNavigationLink } from 'components';
+import { NavigationMenu, SkipNavigationLink, HeaderBanner } from 'components';
 
 import styles from './Header.module.scss';
 /**

@@ -1,1 +1,9 @@
 @import 'styles/Variables';
+
+.header-banner{
+	background-color:var(--color-secondary);
+	width:100%;
+	padding:10px 15px;
+	display:block;
+	text-align:center;
+}
