@@ -69,7 +69,7 @@ export default function Header({ className }) {
 
       <div>
         <Link href="/">
-          Go Home
+          <a>Go Home</a>
         </Link>
       </div>
     </header>
